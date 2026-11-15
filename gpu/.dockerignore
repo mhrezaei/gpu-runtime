@@ -1,0 +1,21 @@
+# Build context of gpu/image/Dockerfile is gpu/. Keep secrets, weights and caches out of it.
+**/__pycache__
+**/*.pyc
+.git
+.env
+**/.env
+**/.env.*
+.secrets
+**/*.pem
+**/*.key
+**/id_rsa*
+**/*.age
+**/*.safetensors
+**/*.ckpt
+**/*.pt
+**/*.pth
+**/*.gguf
+**/*.bin
+**/*.onnx
+**/.venv
+**/node_modules
